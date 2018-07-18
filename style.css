@@ -8,11 +8,11 @@ body {
 
 .game-board {
 
-    position: center;
     background: #a3cfff;
     width: 800px;
     height: 600px;
     border: 3px solid #3e82ff;
+    overflow: hidden;
 }
 
 .game-score {
@@ -20,15 +20,26 @@ body {
     font-weight: bold;
 }
 
+.game-tile {
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background: #1668FF url(img/pytanie.png) center center no-repeat;
+}
 
 .button{
     background: #91B8FE;
     color: #1668FF;
     border: 5px solid #1668FF;
+    border-radius: 5px;
     padding: 15px 20px;
     margin: 4px 3px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+
+
 
 }
