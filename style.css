@@ -9,10 +9,19 @@ body {
 .game-board {
 
     background: #a3cfff;
-    width: 800px;
-    height: 600px;
-    border: 3px solid #3e82ff;
+    width: 700px;
+    height: 250px;
     overflow: hidden;
+}
+
+.button-board {
+    background: #a3cfff;
+    width: 700px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .game-score {
@@ -21,12 +30,44 @@ body {
 }
 
 .game-tile {
-
-    position: absolute;
     width: 200px;
     height: 200px;
-    cursor: pointer;
     background: #1668FF url(img/pytanie.png) center center no-repeat;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    align-self: flex-start;
+
+}
+
+.game-button1 {
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+    background: #1668FF url(img/papier.JPG) center center no-repeat;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.game-button2 {
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+    background: #1668FF url(img/kamien.JPG) center center no-repeat;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.game-button3 {
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+    background: #1668FF url(img/nozyce.JPG) center center no-repeat;
+    margin: 0 auto;
+    padding: 10px;
+
 }
 
 .button{
