@@ -29,6 +29,11 @@ body {
     font-weight: bold;
 }
 
+.enemy-score {
+    text-align: center;
+    font-weight: bold;
+}
+
 .game-tile {
     width: 200px;
     height: 200px;
@@ -70,7 +75,7 @@ body {
 
 }
 
-.button{
+.game-start{
     background: #91B8FE;
     color: #1668FF;
     border: 5px solid #1668FF;
