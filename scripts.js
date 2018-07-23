@@ -5,11 +5,12 @@ const paperRockScissors = {
     tiles : [],
     moveCount : 0,
 
-
+    // pictureChange : function(){
+    //
+    //     document.getElementById("question").src=;
+    // },
 
 playGame : function () {
-    console.log("Dzialam");
-
     var imgArray = new Array();
 
     imgArray[0] = new Image();
@@ -25,7 +26,15 @@ playGame : function () {
 
     console.log("Wybrano: " + item.src);
 
-}
+    document.getElementById("question").src=item.src;
+
+
+    }
+
+
+
+
+
 
 
 
@@ -50,7 +59,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+
 /*
+    future reset button maybe....
+
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.game-start').addEventListener('click', function() {
         paperRockScissors.startGame();

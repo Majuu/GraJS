@@ -37,7 +37,7 @@ body {
 .game-tile {
     width: 200px;
     height: 200px;
-    background: #1668FF url(img/question_mark.jpg) center center no-repeat;
+    background: #1668FF  no-repeat;
     margin: 0 auto;
     padding: 10px;
     justify-content: center;
