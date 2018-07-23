@@ -2,38 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GraJS - Paper, rock, scsissors</title>
+    <title>JS Game - Paper, rock, scissors</title>
     <link rel="Stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
 
 <div class="game">
 
-
-
     <div class="game-board">
-
-        <img id="question" class="game-tile"  src="img/question_mark.jpg">
-       <!-- <div id="question" class="game-tile"></div> -->
+      <img id="question" class="game-enemy"  src="img/question_mark.jpg">
     </div>
 
     <div class="button-board">
         <div id="1" class="game-button1"></div>
         <div id="2" class="game-button2"></div>
         <div id="3" class="game-button3"></div>
-
     </div>
-
-
 
     <div style="text-align:center;">
-        <button class="game-start">Reset</button>
+        <button class="game-reset">Reset</button>
     </div>
 
-    <h3>Your score:</h3>
-    <div  id="myScore" class="game-score"></div>
-    <h3>Enemy score:</h3>
-    <div id="enemyScore" class="enemy-score"></div>
+    <div style="text-align:center;">
+        <h3>Your score:</h3>
+        <div  id="myScore" class="game-score"></div>
+        <h3>Enemy score:</h3>
+        <div id="enemyScore" class="enemy-score"></div>
+    </div>
 
 </div>
 <script defer src="scripts.js"></script>
