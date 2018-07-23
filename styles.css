@@ -32,7 +32,7 @@ body {
 .game-tile {
     width: 200px;
     height: 200px;
-    background: #1668FF url(/img/pytanie.png) center center no-repeat;
+    background: #1668FF url(img/question_mark.jpg) center center no-repeat;
     margin: 0 auto;
     padding: 10px;
     justify-content: center;
@@ -44,7 +44,7 @@ body {
     width: 120px;
     height: 150px;
     cursor: pointer;
-    background: #1668FF url(/img/papier.JPG) center center no-repeat;
+    background: #1668FF url(img/paper.JPG) center center no-repeat;
     margin: 0 auto;
     padding: 10px;
 
@@ -54,7 +54,7 @@ body {
     width: 120px;
     height: 150px;
     cursor: pointer;
-    background: #1668FF url(/img/kamien.JPG) center center no-repeat;
+    background: #1668FF url(img/rock.JPG) center center no-repeat;
     margin: 0 auto;
     padding: 10px;
 
@@ -64,7 +64,7 @@ body {
     width: 120px;
     height: 150px;
     cursor: pointer;
-    background: #1668FF url(/img/nozyce.JPG) center center no-repeat;
+    background: #1668FF url(img/scissors.JPG) center center no-repeat;
     margin: 0 auto;
     padding: 10px;
 
