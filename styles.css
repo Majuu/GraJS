@@ -1,84 +1,62 @@
 body {
-    font-family: Calibri;
+    font-family: Calibri, serif;
+}
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.game-board {
-
-    background: #a3cfff;
-    width: 700px;
-    height: 250px;
-    overflow: hidden;
-    text-align:center
-}
-
-.button-board {
-    background: #a3cfff;
-    width: 700px;
+.question-mark {
+    width: 200px;
     height: 200px;
-    overflow: hidden;
+    padding: 30px;
+}
+
+.user-buttons {
+    margin-top: 50px;
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.game-score {
-    text-align: center;
-    font-weight: bold;
-}
-
-.enemy-score {
-    text-align: center;
-    font-weight: bold;
-}
-
-.game-enemy {
-    width: 160px;
-    height: 170px;
-    background: #1668FF  no-repeat;
-    margin: 0 auto;
-    padding: 13px;
-    justify-content: center;
-    align-self: flex-start;
-}
-
-.game-button1 {
-    width: 120px;
+.button {
+    width: 150px;
     height: 150px;
     cursor: pointer;
-    background: #1668FF url(img/paper.JPG) center center no-repeat;
-    margin: 0 auto;
-    padding: 10px;
+    margin: 0 50px 0 50px;
 }
 
-.game-button2 {
-    width: 120px;
-    height: 150px;
-    cursor: pointer;
-    background: #1668FF url(img/rock.JPG) center center no-repeat;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.game-button3 {
-    width: 120px;
-    height: 150px;
-    cursor: pointer;
-    background: #1668FF url(img/scissors.JPG) center center no-repeat;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.game-reset{
-    background: #91B8FE;
-    color: #1668FF;
-    border: 5px solid #1668FF;
+.reset-button {
+    border: 1px solid #91B8FE;
     border-radius: 5px;
     padding: 15px 20px;
-    margin: 4px 3px;
+    margin: 10px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+}
+
+.score-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.score-board {
+    text-align: center;
+    margin-top: 40px;
 }

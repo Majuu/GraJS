@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JS Game - Paper, rock, scissors</title>
-    <link rel="Stylesheet" type="text/css" href="styles.css" />
-</head>
-<body>
-
-<div class="game">
-
-    <div class="game-board">
-      <img id="question" class="game-enemy"  src="img/question_mark.jpg">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock, paper & scissors</title>
+        <link rel="Stylesheet" type="text/css" href="styles.css"/>
+        <script defer src="scripts.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div class="game-board">
+            <img alt="question-mark" id="question" class="question-mark" src="img/question.svg">
+        </div>
+        <div class="user-buttons">
+            <img alt="rock" id="rock" class="button" src="img/rock.svg">
+            <img alt="paper" id="paper" class="button" src="img/paper.svg">
+            <img alt="scissors" id="scissors" class="button" src="img/scissors.svg">
+        </div>
+        <div class="score-board">
+            <div class="score-container">
+                <h3>Your score:</h3>
+                <div  id="myScore" class="score"></div>
+            </div>
+            <div class="score-container">
+                <h3>Enemy score:</h3>
+                <div id="enemyScore" class="score"></div>
+            </div>
+            <button id="reset" class="reset-button">Reset</button>
+        </div>
     </div>
-
-    <div class="button-board">
-        <div id="1" class="game-button1"></div>
-        <div id="2" class="game-button2"></div>
-        <div id="3" class="game-button3"></div>
-    </div>
-
-    <div style="text-align:center;">
-        <button class="game-reset">Reset</button>
-    </div>
-
-    <div style="text-align:center;">
-        <h3>Your score:</h3>
-        <div  id="myScore" class="game-score"></div>
-        <h3>Enemy score:</h3>
-        <div id="enemyScore" class="enemy-score"></div>
-    </div>
-
-</div>
-<script defer src="scripts.js"></script>
-</body>
+    </body>
 </html>
