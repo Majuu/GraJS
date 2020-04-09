@@ -8,11 +8,11 @@ const myScore = document.getElementById('myScore');
 const enemyScore = document.getElementById('enemyScore');
 
 const gameOver = () => {
-    if (playerScore === 5){
+    if (playerScore === 5) {
         alert('Game over. You win, congratulations!');
         backToStart();
     }
-    if (computerScore === 5){
+    if (computerScore === 5) {
         alert('Game over. You are a loser!');
         backToStart();
     }
