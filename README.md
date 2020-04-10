@@ -1,8 +1,8 @@
-# rock-paper-scissors
+# Rock paper & scissors
 
 **Description**
 
-This project is a popular game *Rock, paper and scissors*. 
+This project is a popular *Rock, paper and scissors* game. 
 It is a project with a simple architecture, built with the usage of ```HTML```, ```CSS``` and ```JS```.
 The game was created during the learning process to familiarize with mentioned technologies. 
 
